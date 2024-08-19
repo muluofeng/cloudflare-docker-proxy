@@ -7,17 +7,17 @@ const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
   // production
-  "docker.muluofeng.so": dockerHub,
-  "quay.muluofeng.so": "https://quay.io",
-  "gcr.muluofeng.so": "https://gcr.io",
-  "k8s-gcr.muluofeng.so": "https://k8s.gcr.io",
-  "k8s.muluofeng.so": "https://registry.k8s.io",
-  "ghcr.muluofeng.so": "https://ghcr.io",
-  "cloudsmith.muluofeng.so": "https://docker.cloudsmith.io",
-  "ecr.muluofeng.so": "https://public.ecr.aws",
+  "docker.muluofeng.com": dockerHub,
+  "quay.muluofeng.com": "https://quay.io",
+  "gcr.muluofeng.com": "https://gcr.io",
+  "k8s-gcr.muluofeng.com": "https://k8s.gcr.io",
+  "k8s.muluofeng.com": "https://registry.k8s.io",
+  "ghcr.muluofeng.com": "https://ghcr.io",
+  "cloudsmith.muluofeng.com": "https://docker.cloudsmith.io",
+  "ecr.muluofeng.com": "https://public.ecr.aws",
 
   // staging
-  "docker-staging.muluofeng.so": dockerHub,
+  "docker-staging.muluofeng.com": dockerHub,
 };
 
 function routeByHosts(host) {
